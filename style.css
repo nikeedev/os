@@ -54,7 +54,7 @@ body {
     margin: auto;
     width: 50%;
 
-    transition-property: display;
+    transition-property: display, color;
     transition-duration: 2s;
     transition-timing-function:step-end;
     transition-delay: 1s;
