@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body {
+    font-family: Helvetica;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top:0;
+
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+#onbutton {
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: 0px;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#onbutton img {
+    padding: 2px;
+    color:white;
+}
+
+#nikos-info {
+    font-size: 17px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-top: 10px;
+
+    transition-property: display;
+    transition-duration: 2s;
+    transition-timing-function:step-start;
+    transition-delay: 1s;
+}
+
+#welcome-nikos {
+    font-family: 'Madimi One';
+    padding-top: 50vh;
+    margin: auto;
+    width: 50%;
+
+    transition-property: display;
+    transition-duration: 2s;
+    transition-timing-function:step-end;
+    transition-delay: 1s;
+}
